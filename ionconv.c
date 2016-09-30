@@ -5,7 +5,7 @@
 
 #define IONS_SIZE 1000
 #define NAME_SIZE 50
-#define FORMULA_SIZE 10
+#define FORMULA_SIZE 15
 #define CHARGE_SIZE 5
 #define ALPHABET "abcdefghijklmnopqrstuvwxyz\x7E"
 #define ALPHA_SIZE 26
@@ -17,7 +17,7 @@ struct ion {
 };
 
 int ion_comp(const void *ion1, const void* ion2) {
-	return strcmp(((struct ion*)ion1)->name, ((struct ion*)ion2)->name);
+	return strcasecmp(((struct ion*)ion1)->name, ((struct ion*)ion2)->name);
 }
 
 int main(int argc, char **argv) {
@@ -56,7 +56,7 @@ int main(int argc, char **argv) {
 	}
 	qsort(ions, i, sizeof(*ions), *ion_comp);
 	int total_ions = i;
-	for (i = 0; i < total_ions; i++) {
+	for (i = 0; i < total_ions; ++i) {
 		fprintf(output, "{\"%s\", \"%s\", \"%s\"},\n", ions[i].name, ions[i].formula, ions[i].charge);
 	}
 	fprintf(output, "\n");
