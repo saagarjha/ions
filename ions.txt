@@ -151,6 +151,9 @@ HSO4
 Hydrogen sulfite
 HSO3
 -1
+Hydronium
+H3O
++1
 Hydroxide
 OH
 -1

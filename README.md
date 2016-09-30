@@ -2,7 +2,7 @@
 ions is a program for 68k calculators  (TI-89/TI-89 Titanium, TI-92, and Voyage 200) that displays a list of common ions.
 
 ## Installation
-Copy the appropriate file (`ions.89z` for TI-89/TI-89 Titanium, `ions.9xz` for TI-92, and `ions.v2z` for Voyage 200) using your favorite calculator linking program. ions is around 6 KB large, so make sure you have adequate space before copying.
+Download and copy the appropriate file ([ions.89z](https://github.com/saagarjha/ions/raw/master/ions.89z) for TI-89/TI-89 Titanium, [ions.9xz](https://github.com/saagarjha/ions/raw/master/ions.9xz) for TI-92, and [ions.v2z](https://github.com/saagarjha/ions/raw/master/ions.v2z) for Voyage 200) using your favorite calculator linking program. ions is around 6 KB large, so make sure you have adequate space before copying.
 
 ## Usage
 ions displays an alphabetically organized list of common ions, their formulae, and their charge. The up/down arrow keys will scroll the list, and these keys in conjunction with the 2nd and Diamond key will scroll by 10 and to the top/bottom, respectively. Any key with a letter on it may be used to quickly jump to the appropriate position (you don't have to use the Alpha key, but it doesn't hurt). The Esc key exits the program.

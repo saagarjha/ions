@@ -114,6 +114,7 @@ const struct ion ions[] = {
 	{"Hydrogen phosphate", "HPO4", "-2"},
 	{"Hydrogen sulfate", "HSO4", "-1"},
 	{"Hydrogen sulfite", "HSO3", "-1"},
+	{"Hydronium", "H3O", "+1"},
 	{"Hydroxide", "OH", "-1"},
 	{"Iodate", "IO3", "-1"},
 	{"Iodide", "I", "-1"},
@@ -163,7 +164,7 @@ const struct ion ions[] = {
 	{"Zinc", "Zn", "+2"},
 	{"Zirconium (II,III,IV)", "Zr", "+1"},
 };
-const int ions_length = 99;
+const int ions_length = 100;
 
 // Indices to scroll to for each letter
 const int indices[] = {
@@ -175,24 +176,24 @@ const int indices[] = {
 	40,
 	42,
 	43,
-	52,
-	55,
-	55,
-	55,
-	57,
-	65,
-	68,
-	71,
-	81,
-	81,
-	81,
-	92,
-	97,
-	97,
-	97,
-	97,
-	97,
-	97,
+	53,
+	56,
+	56,
+	56,
+	58,
+	66,
+	69,
+	72,
+	82,
+	82,
+	82,
+	93,
+	98,
+	98,
+	98,
+	98,
+	98,
+	98,
 };
 
 // Draws everything on the line specified and below; line is zero indexed
