@@ -16,7 +16,7 @@ struct ion {
 	char charge[CHARGE_SIZE];
 };
 
-int ion_comp(const void *ion1, const void* ion2) {
+int ion_comp(const void *ion1, const void *ion2) {
 	return strcasecmp(((struct ion*)ion1)->name, ((struct ion*)ion2)->name);
 }
 

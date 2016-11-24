@@ -237,8 +237,6 @@ int key_index(short key) {
 		        key - KEY_2ND == keymap[i] ||
 		        key - KEY_DIAMOND == keymap[i]) {
 			return indices[i];
-			// scroll(line = clamp(indices[i]));
-			// break;
 		}
 	}
 	return -1;
